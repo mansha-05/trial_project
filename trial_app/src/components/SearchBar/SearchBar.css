@@ -1,0 +1,9 @@
+.menu-search {
+  width: 50%;
+  margin: 0 auto 30px auto;
+  display: block;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
