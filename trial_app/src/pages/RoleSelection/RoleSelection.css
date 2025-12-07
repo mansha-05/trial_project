@@ -1,0 +1,93 @@
+/* FULL BACKGROUND */
+.role-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6f68f8,rgb(117, 211, 248) , #cda6f1); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  text-align: center;
+  color: white;
+}
+
+/* Logo Top */
+.logo-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Role Cards Container */
+.role-container {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Role Card */
+.role-card {
+  width: 280px;
+  background: white;
+  color: #333;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.role-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+/* Icon Circle */
+.icon-circle {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  background: #eee;
+}
+
+.blue { background: #dbeafe; color: #2563eb; }
+.purple { background: #ede9fe; color: #7c3aed; }
+.red { background: #fee2e2; color: #dc2626; }
+
+/* Buttons */
+.btn2 {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  color: white;
+}
+
+.blue-btn { background: #2563eb; }
+.purple-btn { background: #7c3aed; }
+.red-btn { background: #dc2626; }
+
+.btn2:hover {
+  opacity: 0.9;
+}

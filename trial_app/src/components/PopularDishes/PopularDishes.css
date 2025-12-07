@@ -1,0 +1,48 @@
+.top{
+    background-color: hsl(37, 59%, 91%);
+    height: 800px;
+}
+
+.pill-tag {
+  display: inline-block;
+  padding: 8px 18px;
+  background-color: #fcf4e8; 
+  color: #c4490f;            
+  border-radius: 999px;     
+  font-size: 14px;
+  font-weight: 500;
+}
+.pill-tag-container {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+    color: #c4490f; 
+    text-align: center;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* spacing between pill and heading */
+}
+.popular-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: stretch; /* all cards same height */
+}
+.button{
+  align-items: center;
+}
+.btn{
+    background-color: #fdebd0; 
+    color:black;
+    border: black;
+    border-radius: 5px;
+}
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
