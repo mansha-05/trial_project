@@ -14,7 +14,7 @@ function HeroSection() {
             <h1>Experience Culinary Excellence</h1>
             <p>Indulge in a delightful dining experience with our carefully crafted menu, featuring fresh ingredients and authentic flavors from around the world </p>
               <div className='buttons'>
-           <button type="button" className="btn btn-primary">View Menu</button>
+           <button type="button" className="btn btn-primary" onClick={()=>navigate("/menu")}>View Menu</button>
            <button type="button" className="btn btn-secondary" onClick={()=>navigate("/reserve")}>Reserve Tables</button>
         </div>
         </div>
