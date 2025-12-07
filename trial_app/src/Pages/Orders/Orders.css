@@ -1,0 +1,139 @@
+.orders-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.orders-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #9a3a00;
+  margin-bottom: 5px;
+}
+
+.orders-subtitle {
+  color: #555;
+  margin-bottom: 35px;
+}
+
+.section-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #9a3a00;
+  margin-bottom: 20px;
+}
+
+.orders-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.order-card {
+  width: 420px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-id {
+  margin: 0;
+  font-size: 20px;
+}
+
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.status-badge.preparing {
+  background-color: #4c8cf5;
+}
+
+.status-badge.ready {
+  background-color: #3ac467;
+}
+
+.order-date {
+  color: gray;
+  margin: 8px 0 20px 0;
+}
+
+/* PROGRESS BAR */
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-label {
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #eee;
+  border-radius: 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #ff6a00;
+  border-radius: 8px;
+}
+
+.progress-percent {
+  text-align: right;
+  margin-top: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* ITEMS */
+.items-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.items-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+/* TOTAL */
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 0;
+}
+.status-badge.pending {
+  background-color: #ffa500; /* Orange */
+}
+
+.total-amount {
+  color: #e65a00;
+}
+
+/* TABLE NUMBER */
+.table-number {
+  font-size: 14px;
+  color: gray;
+}
